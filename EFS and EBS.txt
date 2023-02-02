@@ -1,0 +1,23 @@
+EBS
+
+EBS its block level storage service provided by aws used for indivisual storage.
+
+it is not used for more than one instance. it provides high performance option for many use cases.
+
+EBS stores files in multiple volumes called blocks , which act as seprate hard drives and storage is not accessible via innternet
+
+
+EBS is similar to a hard-drive connected to a physical computer and this storage can be attached and detached at any time.
+
+
+EFS
+
+EFS is a file-level storage service that basically provides a shared elastic file system with virtually unlimited scalability support
+
+EFS is highly available storage that can be utilized by many servers at the same time
+
+scalability feature of EFS also provides cost benefits as you need not pay anything for the part of storage that you don’t use, you only pay for what you use
+
+IOPS rate in EFS is inversely proportional to the size of data. (One most important feature of EFS that makes it different)
+
+if the size of data is less, then the performance and IOPS rate might be not much significant but when used more heavily, EFS can offer as much as 10 GB/sec along with 500,000 IOPS.

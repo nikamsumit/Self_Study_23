@@ -1,0 +1,38 @@
+setup.py = 
+	it is present at root of our project
+	it contains necessary information to build packages and disrubute python code
+	it also consider as entrypoint to all commands we need to run
+
+README.md =
+	always include this file with package
+	gives short description when developers get stuck
+
+License = 
+	we as package developer have rights mean license
+	   		
+Project code =
+	one top level python package
+
+MANIFEST.in = 
+	it is not included by default 
+	consists of commands, one per line, instructing setuptools to add or remove some set of files from the sdist.
+
+Setup.cfg = 
+	we can add default values for setup.py 
+	so that we dont need write in command line 
+
+Generate report =
+	coverage run test.py
+	coverage report
+	coverage html 
+
+sonar.python.coverage.reportPat= to show coverage report on github
+
+difference between readme.txt and readme.md
+-readme.md looks more clear than txt we can use html markup inside it
+
+
+
+
+
+

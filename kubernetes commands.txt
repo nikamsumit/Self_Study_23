@@ -1,0 +1,16 @@
+kubernetes get pod
+kubernetes get services
+kubernetes get deployments
+(To create deployment)
+kubernetes create deployment nginx-del --image=nginx
+(To view replicaset)
+kubectl get replicaset
+kubectl edit deployment [name]
+kubectl logs [pod name ]
+kubectl exec -it [pod name] -- bin/bash  (used for debugging)
+kubectl apply -f [file name]
+kubectl run nginx --image=nginx (TO create pod)
+kubectl describe pod nginx (gives more information about pod)
+kubectl get pods -o wide (gives more info about pods)
+kubectl replace -f replicaset-definition.yml(To update replicas)
+kubectl scale --replicas=6 -f replicaset-definition.yml(To update replicas)

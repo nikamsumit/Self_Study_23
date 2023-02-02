@@ -1,0 +1,61 @@
+AWSAccessKeyId = AKIATTZDEBR5FO5I2IVP
+
+AWSSecretKey = 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
+
+github token=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
+
+AWS account no = 000874130208
+AWS username= sumitni@cybage.com
+
+	
+terminal - cd dowmloads
+up arrow - ssh command 
+bastion connect 
+up arrow - jenkins ssh
+
+-----------------------------
+
+promethus and grafana
+user = admin
+password = prom-operator
+------------------------------
+sumit account
+AKIATTZDEBR5GNP5PHFK
++hI6NVTlJtuToVq+xptDVqxluN0fwx7Bus0RfBCO
+------------------------------
+splunk
+userid=sumitnikam1995@gmail.com
+password=
+token=9b174935-0467-4784-a1da-1449ab616b85
+-------------------------------------
+
+splunkPlatform.endpoint: URL to a Splunk instance=http://44.200.163.251:8088/services/collector
+splunkPlatform.token: Splunk HTTP Event Collector token: 9b174935-0467-4784-a1da-1449ab616b85
+
+----------------------------
+clusterName=Middleware-Preprod-EKS-Cluster
+
+
+helm install my-splunk-otel-collector --set="splunkPlatform.endpoint=http://44.192.132.244:8088/services/collector,splunkPlatform.token=9b174935-0467-4784-a1da-1449ab616b85,splunkPlatform.metricsIndex=k8s-metrics,splunkPlatform.index=main,clusterName=Middleware-Preprod-EKS-Cluster" splunk-otel-collector-chart/splunk-otel-collector
+
+---------------------------------------------------
+curl -k http://3.237.178.231:8088/services/collector -H 'Authorization: Splunk 9b174935-0467-4784-a1da-1449ab616b85' -d '{"event":"This is test http event collector"}'
+-----------------------------------------------------------------------------------------------------------
+
+Splunk Cloud
+
+helm install my-splunk-otel-collector --set="splunkPlatform.endpoint=https://http-inputs.prd-p-tz1su.splunkcloud.com:8088/services/collector/raw,splunkPlatform.token=da94def2-e772-446b-95b2-b5314890124c,splunkPlatform.metricsIndex=k8s-metrics,splunkPlatform.index=main,clusterName=Middleware-Preprod-EKS-Cluster" splunk-otel-collector-chart/splunk-otel-collector
+-----------------------------------------------------------------------------------------------------------
+curl -k https://http-inputs.prd-p-tz1su.splunkcloud.com:8088/services/collector/event -H 'Authorization: Splunk da94def2-e772-446b-95b2-b5314890124c' -d '{"event":"This is test http event collector"}'
+
+
+
+
+
+-----------------------------
+https://prd-p-tz1su.splunkcloud.com:8088/services/collector/event  ----we have tried
+
+https://http-inputs.prd-p-tz1su.splunkcloud.com:8088/services/collector/event
+
+
+

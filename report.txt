@@ -1,0 +1,24 @@
+from 2nd august our core training was started thn at start we learn abt devops what is devops ?
+cultaral of automation
+ a methodology throughout the software development lifecycle.
+ 
+CICD
+Continuous Integration is an engineering practice in which members of a development team 
+ integrate their code at a very high frequency.
+
+Continuous delivery (CD) is a software engineering practice in which teams develop, build, test,
+and release software in short cycles.
+
+Continuous Deployment is the process by which qualified changes in software code 
+ or architecture are deployed to production
+
+then cicd pipeline,tools like confluence,jira,git?
+git -ashlesh
+confluence - chetan
+cicd pipeline - jayashree
+jira - animesh
+
+apart from this we learnt so many thisngs how to raised ticket ?
+3 tickets (inter vlan access,outlook memory extension,youtube)
+how to fill timesheet?
+how to apply for leaves in emergency cases?

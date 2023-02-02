@@ -1,0 +1,19 @@
+1.creating seprate s3 bucket for dev and staging
+2.writting jenkins declearative pipeline for notification
+3.writing lifecycle rule in tf script
+4.Integrated AWS SQS with AWS S3
+5.created lifecycle rule for s3 bucket in my own account
+6.created s3 bucket in my own account using terraform script and attching lifecycle rule
+7. Added path in linux for java and mvn in /etc/profile (5/1/23)
+	JAVA_PATH=/usr/lib/jvm/java-1.11.0-openjdk-amd64
+	export JAVA_HOME="/usr/lib/jvm/java-1.11.0-openjdk-amd64"
+	export M2_HOME="/usr/share/maven/bin"
+8.created staging deployment. (6/1/23)
+9. done health check on staging environment with aniket and rohidas(10/1/23)
+10.created notification channel on teams for new job BUILD-DEPLOY(14/1/23)
+11.attached ssl certificate to load balancer (https) 
+12.splunk integration using HEC token on splunk enterprise.(31/1/23)
+13.created middleware-notification-dev-pipeline.(1/2/23)
+
+
+

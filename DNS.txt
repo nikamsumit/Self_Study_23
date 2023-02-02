@@ -1,0 +1,56 @@
+DNS(Domain name system)
+
+1.DNS is a host name to ip address Translation service
+2.It is an Application Layer Protocol 
+3.Previously All the host name were saved in host txt file
+4. 6 Top level domains included .com,.org,.mil,.net,.edu
+5.forward and resverse DNS lookups
+6.Highly Targated for Hacking Purpose
+7.It uses TCP port 53 and UDP port 53
+8.Today , DNS support 13 Root Name server (https://root-servers.org/)  Named by alphabetically
+
+Note: In maximum cases we uses UDP protocol, It is connection less protocol thats why it is fast
+      BUT when we Require acknowledgement then we use TCP protocol less chances of data loss 
+
+               Domain
+	1)Generic  2)Country  3) Inverse
+ eg..net,.edu       eg. .uk,.us,.in      eg. IP to dommain name mapping
+
+              Namespace
+	1)Flat     2)Hieracrchical
+eg. In this method,Name os assigned to an address it is in sequence of chracter without any structure.
+eg. In this Name is made of Several Paths, Name space cant be Decentralised. 
+
+Hierachy of Name server
+-root server
+-Top level Server
+- Authoritative Server
+
+Host --> Request to Resolve -->Name server --> Root Server -->Name server --> Name Server
+
+In Iteratice they are not interconnected.
+while in Recursive root server connected till end.(Interconnected)
+
+
+Fully Qualified domain name(FQN) 
+
+In this a label is terminated by nuLL string
+eg. XYZ.google.co.in
+It contains Full Name of host
+
+Partially qualified domain name(PQN)
+
+In this a label is not terminated by  null string
+eg. XYZ.google.co.in
+PQDN Start from node but does not reach till root
+
+
+	  Root 
+	 /
+	.in,.uk,.com
+	/
+	google
+	/
+	xyz 
+	     
+

@@ -1,0 +1,29 @@
+Helm Charts -
+Its a package manager for kubernetes cluster
+To install (helm install)
+To upgrade (helm upgrade)
+To delete (helm delete)
+
+For installing helm charts
+$brew install helm (Homebrew)
+$choco install kubernetes-helm (Chocolatey)
+$scoop install helm (Scoop)
+$gofish install helm (Gofish)
+$sudo snap install helm --classic (snap)
+$Binary
+
+Helm Chart Structure
+chart.yaml
+templates
+values.yaml
+
+-helm create demochart
+chart.yaml contains
+apiVersion: v2
+name: demochart
+description: A helm chart for kubernetes
+type: application
+version: 0.1.0
+appVersion: 1.16.0
+
+

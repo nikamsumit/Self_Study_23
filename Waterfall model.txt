@@ -1,0 +1,20 @@
+Waterfall model
+as name indicates its a waterfall model ad we all know in waterfall also water comes from top to bottom it 
+cannor turns back.
+like if suppose we r in testing stage i mean team written source code and in testing we found a bug its very difficult
+find that bug in entire source code which takes a lot of time.
+- high risk and uncertainity
+-not suitable for application who needs moderate & high risk of changing.
+
+Analyze ->Plan ->Design ->Build ->Test ->Deploy  (linear)
+
+Agile methodology
+each project broken up into several iterations.
+all iterations should be of same time interval.
+at the end of each iteration a working product should be delivered
+
+                - - - - - - - - - - - -                                - - - - - - - - - - - -
+Analyze ->Plan |->Design ->Build ->Test| ->Deploy -->  Analyze ->Plan |->Design ->Build ->Test| ->Deploy (continiously)
+                - - - - - - - - - - - -                                - - - - - - - - - - - - 
+
+

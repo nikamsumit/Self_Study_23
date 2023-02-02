@@ -1,0 +1,26 @@
+           Version Control -maintains diff version of code (source code management)
+                                           |
+        Continious Integrations -compile,validate code,review,unit testing,Integration testing
+                                           |
+               Continious Delivery -Deploying build application to test servers
+                                           |
+       Continious Deployment -Deploying the tested application on the prod server(Config mgmt,Container/n)
+
+
+version control - git add,git commit,git push,git pull,git checkout,git merge
+
+In CI developer buid their source code and makes continious changes using source code management
+jenkins pull code from their and then prepare build,compile,review,validate ,packaging(war or jar file)
+
+CD (continious delivery)
+movement any changes done by developer jenkin pull that code prepare build ,
+once successful then deploy on test server.(User Acceptance test)functional testing
+if their is any error then we check which commits cause error then we check instead 
+of entire application.
+
+CD(deployment)
+taking build application we tested and deploying on prod servers for release.
+eg.chef ,puppet
+
+monitoring 
+eg.nahios

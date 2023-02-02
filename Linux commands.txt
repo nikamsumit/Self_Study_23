@@ -1,0 +1,74 @@
+1.cd 
+-it is used to change the current working directory to
+a specified folder inside the terminal.
+2.cd ..
+-This command is used to navigate to the parent directory of the current directory
+3.ls
+-The ls command in Linux is used to display a directory's files and folders.
+4.ls -l: The -l tag is used to display a detailed version 
+of every file and directory available inside the current working directory.
+5.cat
+The cat command in Linux is used to read the contents 
+of one or more files and display their contents inside the terminal.
+(cat test1.txt) (cat -n test1.txt test2.txt)
+
+(cat -b This adds line numbers to non-blank lines
+cat -n This adds line numbers to all lines
+cat -s This squeezes blank lines into one line
+cat –E This shows $ at the end of line)
+
+6.touch
+The touch command in Linux is used to create a new file without any content inside it.
+(touch style.css script.js)
+7.mkdir
+The mkdir command in Linux is used to create new directories inside an existing working directory from the terminal.
+(mkdir --help: Used to display relevant information pertaining to the mkdir command.)
+8.pwd
+The pwd command in Linux translates to "Print Working Directory" 
+and is used to display the path of the current working directory inside the terminal.
+9.echo
+The echo command in Linux simply displays a line of text/string which is passed in as an argument.
+It is commonly used for debugging shell programs inside the terminal.
+(echo -e "Learn \nBy \nDoing": The '-e' tag enables the echo command to recognize the backslash escape sequences inside the argument.)
+10.rm
+-The rm command in Linux helps you delete files and directories. 
+-deletes all references to objects from the filesystem, 
+11.rmdir
+-The rmdir command in Linux only allows you to delete empty directories. So if a directory has some files/folders inside it, rmdir will display an error.
+12.wget
+-The wget command in Linux is a utility tool to download applications/web pages directly from the web.
+13.mv
+-The mv command in Linux translates to 'move'. It performs two major functions in Linux:
+1.You can rename a file/directory using this command.
+2.You can easily move a file/directory from one location to another.
+14.cp
+The cp command in Linux translates to 'copy'. It is used to copy files/directories from one location to another from inside the terminal.
+15.tree
+-The tree command in Linux can be used to list out the contents of directories in a tree-like fashion.
+16.grep
+-The grep command in Linux searches through a specified file and prints all lines that match a given pattern.
+(grep -i <running> <test1.txt>)
+17.vi
+-The vi command in Linux allows a user to edit any text content inside the Vim text editor from the terminal.
+18.head
+-head -n <number> <Filename>
+-Used to print the first <number> lines of the specified files
+19.history
+-The history command in Linux is used to view a history of all the commands previously executed inside the bash terminal
+20.chmod
+change mode give permission
+(chmod 777 filename)
+
+ls -l
+drwxrwxr--
+owner-group-others
+-r recursive,-f force,-v verbose
+
+21.sudo useradd <username> Adding a new user
+sudo passwd <username> Setting a password for the new user
+sudo userdel <username> Deleting the user
+sudo groupadd <groupname> Adding a new group
+sudo groupdel <groupname> Deleting the  group
+sudo usermod -g <groupname> <username> Adding a user to a primary group
+
+

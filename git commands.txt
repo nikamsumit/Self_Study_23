@@ -1,0 +1,46 @@
+git config --global user.name sumit
+git config --global user.email sumitnikam1995@gmail.com
+git config --global user.email
+git config --global user.name
+git init (initialization)
+ls -lart(shows all hidden folders)
+git status (shows untrack files)
+git add filename
+git status(green colour shows commited)
+touch filename
+git add -a (to add all files in staging area)
+git checkout -f (it moves to previous commit)
+git log -p -1 (shows chaanges we made)
+git diff (compare working dir to staging area)
+git diff --staged
+ls
+git commit -a -m "file added" 
+git rm waste.html (to remove file) 
+git rm --cached waste.html(push file in untrack)
+git status -s (M shows modified staging area,working areatoucgh)
+touch .gitignore(if we r working in project so images,file not important must be ignore)
+git branch (shows branches)
+git checkout feature1 (move to feature1 branch)
+git merge feature1
+git checkout -b flask(create new branch and move into that branch)
+pull request to repo owner to allow me to make changes
+
+
+
+
+
+
+
+
+
+
+untracked  unmodified  modified staged
+
+add file -------------------------->
+
+           <-------commit-----------                        
+ 
+           
+
+                       
+                      
